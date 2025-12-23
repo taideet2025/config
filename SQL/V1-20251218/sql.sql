@@ -1,7 +1,7 @@
 
-1216-软件包上传, -----------------------------------未执行prd 需要改状态 111
+1216-软件包上传, -------------------------------------  已个更新2个环境
 
-# 1111111111
+# 64
 INSERT INTO `aika`.`app` (
 
   `name`,
@@ -36,7 +36,7 @@ VALUES
 
 
 
-#2222222222
+#65
 
 INSERT INTO `aika`.`app` (
 
@@ -75,10 +75,10 @@ VALUES
 
 
 
-#33333333
+#66
 
 INSERT INTO `aika`.`app` (
-
+`id`,
   `name`,
   `url`,
   `icon_url`,
@@ -96,18 +96,18 @@ INSERT INTO `aika`.`app` (
 ) 
 VALUES
   (
-
+	'66',
     'Anghami',
-    'http://cdn.breakspeaker.com/global/com.anghami_8.0.2.xapk',
+    'http://cdn.breakspeaker.com/global/com.anghami_8.0.4.xapk',
     'http://cdn.breakspeaker.com/global/anghami_802.png',
     'com.anghami',
 	
-	'8.0.2',
-    '8000023',
+	'8.0.4',
+    '8000040',
 	
-    '61820617',
-    '59M',
-   '85aca58b41936d9cb895a6a73570a1b8'
+    '89613589',
+    '86M',
+   '33afabbb524b46c0dae38692c31a505b'
    
 
   ) ;
@@ -195,7 +195,36 @@ VALUES
   (
 
     'WBT1002',
-    'AE',
+    'SA',
+    '8',
+    'XXXXX',
+    
+    'Anghami',
+    'extra',
+    'install'
+   
+  ) ;
+  
+  
+  
+  
+  
+INSERT INTO `aika`.`app_rule` (
+ 
+  `model`,
+  `region`,
+  `sn_group`,
+  `app_id`,
+  
+  `app_name`,
+  `app_type`,
+  `op`
+) 
+VALUES
+  (
+
+    'WBT1002',
+    'US',
     '8',
     'XXXXX',
     
@@ -268,7 +297,7 @@ SELECT
 
 
 
-# 1218 -  节日推歌相关  ---------------------------
+# 1218 -  节日推歌相关  ---------------------------  已个更新2个环境
 
 -- 1. 创建holiday表（节日表）
 
